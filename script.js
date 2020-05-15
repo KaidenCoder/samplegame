@@ -38,7 +38,6 @@ const words = [
     'but whoever practices and teaches these commands will be called great in the kingdom of heaven',
     'For I tell you that unless your righteousness surpasses that of the pharisees and the teachers of the law you will certainly not enter the kingdom of heaven',
     'Anyone who says to a brother or sister raca is answerable to the court and anyone who says you fool will be in danger of the fire of hell',
-    'Therefore if you are offering your gift at the altar and there remember that your brother or sister has something against you',
     'Leave your gift there in front of the altar first go and be reconciled to them then come and offer your gift',
     'But I tell you that anyone who is angry with a brother or sister will be subject to judgement again',
     'Settle matters quickly with your adversary who is taking you to court',
@@ -145,7 +144,7 @@ function coronaDestroyed() {
 
     endgameEl.innerHTML = `
         <h1>Hoorah!</h1>
-        <h2>You are safe from COVID-19</h2>
+        <h2>You have completed words</h2>
         <button onclick="location.reload()">Play Again</button>
     `;
 
